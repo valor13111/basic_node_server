@@ -10,7 +10,8 @@
   var http = require('http');
 ```
 * Here, we are setting a variable to 'http' to the module http.  Now all of 'http' functions can be used by the variable.
-<br>
+<br />
+
 * Now, one of those functions is to create a server:
 ```
   http.createServer(function(request, response) {
