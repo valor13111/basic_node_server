@@ -56,7 +56,7 @@ because we haven't setup the port for the server to listen on.  You do that like
 ```
 
 * So, if we run the server, we get the following:
-![Alt text](/screenshots/starting_node.png?raw=true "Starting Node")
+![Starting Node](screenshots/starting_node.png "Starting Node")
 
 * As you can see, we see "Listening on port 3000", but not the console.log within the callback function.  We haven't made a request yet, so it won't be executed, and the REASON we see "Listening on port 3000", is because of the non-blocking code Node uses.  We need to make a request to see the console.log inside the callback function.  Go to localhost:3000, and you will now see:
-![Alt text](/screenshots/callback.png?raw=true "Callback Function")
+![Callback Function](screenshots/callback.png "Callback Function")
