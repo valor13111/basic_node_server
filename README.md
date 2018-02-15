@@ -6,7 +6,7 @@
 ## How to setup a basic server in Node
 ### Requiring the Module
 
-* Node has some built-in modules that we can use.  One of them is called 'http', so lets import that now using 'require'.
+* Node has some built-in modules that we can use.  One of them is called *http*, so lets import that now using *require*.
 * In this code, we require a module for this JS file:
 ```
   var http = require('http');
@@ -63,6 +63,7 @@ because we haven't setup the port for the server to listen on.  You do that like
   }).listen(port);
 ```
 
+### Running the Server
 * So, if we run the server, we get the following <br />
 ![Starting Node](screenshots/starting_node.PNG "Starting Node")
 
